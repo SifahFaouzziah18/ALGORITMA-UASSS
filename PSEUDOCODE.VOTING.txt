@@ -1,0 +1,32 @@
+Mulai
+    Tampilkan "Sistem Voting Layanan Laundry"
+    Input jumlah responden
+
+    voteReguler ← 0
+    voteKilat ← 0
+
+    Untuk i ← 0 sampai jumlah responden - 1
+        Tampilkan "Responden ke-(i+1)"
+        Input nama responden
+        Input pilihan layanan
+
+        Jika pilihan = 1 (Reguler)
+            voteReguler ← voteReguler + 1
+        Jika pilihan = 2 (Kilat)
+            voteKilat ← voteKilat + 1
+        Jika tidak
+            Tampilkan "Pilihan tidak valid"
+        Akhir jika
+    Selesai perulangan
+
+    Tampilkan jumlah suara Reguler
+    Tampilkan jumlah suara Kilat
+
+    Jika voteReguler > voteKilat
+        Tampilkan "Layanan terfavorit: Reguler"
+    Jika voteKilat > voteReguler
+        Tampilkan "Layanan terfavorit: Kilat"
+    Jika tidak
+        Tampilkan "Hasil voting seri"
+    Akhir jika
+Selesai

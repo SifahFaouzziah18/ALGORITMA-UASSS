@@ -1,0 +1,22 @@
+Mulai
+    Tampilkan "Aplikasi Pengelolaan Laundry"
+    Input jumlah pelanggan
+    Total ← 0
+
+    Untuk i ← 1 sampai jumlah pelanggan
+        Tampilkan "Pelanggan ke-i"
+        Input nama pelanggan
+        Input berat laundry
+        Input jenis layanan
+
+        Jika layanan = 1 (Reguler)
+            Harga ← berat × 5000
+        Jika tidak
+            Harga ← berat × 8000
+
+        Total ← Total + Harga
+        Tampilkan biaya laundry
+    Selesai perulangan
+
+    Tampilkan total pendapatan laundry
+Selesai
